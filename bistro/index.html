@@ -33,11 +33,14 @@ height: 40px;
 margin-left: .5em; 
 margin-right: .5em; 
 }
-img {
+.container img {
 transition: transform .2s;
-    width: 200px;
-    height: 100px;
-margin-left: 14.5em;
+width: 200px;
+height: 100px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
 }
 img:hover {
 transform:scale(1.1)
@@ -78,7 +81,9 @@ transform:scale(1.1)
 <h2>Location and Hours</h2>
 <p>Seekonk, Massachusetts;<br> Monday through Thursday 11am to 9pm;<br> Friday and Saturday, 11am to midnight</p>
 
-<a href="pizza/pizza.html"><img src="order.gif"></a>
+<div class="container">
+  <a href="pizza/pizza.html" class="pizza"><img src="order.gif" alt="order pizza button"></a>
+</div>
 
 <footer> 
 <p>Please visit our social media pages</p> 
