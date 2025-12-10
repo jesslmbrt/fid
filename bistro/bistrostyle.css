@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+body { 
+background-color: #f1f2d5; 
+margin: 0 10%;
+color: #000000d2;
+font-family: "Inter"; 
+} 
+h1 { 
+text-align: center; 
+font-family: "Outfit", sans-serif; 
+font-weight: normal; 
+text-transform: uppercase; 
+border-bottom: 2px solid #93d5f5;
+margin-top: 30px;
+} 
+h2 { 
+color: #d1633c; 
+font-size: 1em; 
+} 
+footer { 
+border-top: 2px solid #93d5f5; 
+text-align: center; 
+padding-top: 1em; 
+} 
+footer img { 
+width: 40px; 
+height: 40px; 
+margin-left: .5em; 
+margin-right: .5em; 
+}
+footer a {
+    text-decoration: none;
+}
+.container img {
+transition: transform .2s;
+width: 200px;
+height: 100px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
+}
+img:hover {
+transform:scale(1.1)
+}
+nav {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+nav a {
+    text-decoration: none;
+    color: var(--text-color);
+    transition: font-size 0.3s ease;
+    border-radius: 4px;
+}
+nav ul li a:hover {
+    background-size: 10px;
+    background-color: var(--primary-color);
+    color: #000000d2;
+    font-size: 1.2em;
+}

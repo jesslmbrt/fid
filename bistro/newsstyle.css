@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+h2 {
+    font-family: "Outfit";
+    color:antiquewhite;
+}
+
+h3 {
+    font-family: "Inter";
+    color:aquamarine
+}
+
+p {
+    font-family: "Roboto Condensed";
+}
+
+dt {
+    font-family: "Roboto Condensed";
+}
+
+dl {
+    font-family: "Inter";
+}
+
+body {
+    background-color: rgb(116, 145, 137);
+}
+
+nav {
+    font-family: "Outfit";
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+nav a {
+    text-decoration: none;
+    color: var(--text-color);
+    transition: font-size 0.3s ease;
+    border-radius: 4px;
+}
+nav ul li a:hover {
+    background-size: 10px;
+    background-color: var(--primary-color);
+    color: #2f8550d2;
+    font-size: 1.2em;
+}

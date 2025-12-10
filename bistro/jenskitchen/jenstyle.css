@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+	margin: 2em 5%;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+h1, h2 {	
+	color: #399;
+}
+h1 {
+	font-size: 1.5em;
+}
+h2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+}
+small {
+	color: #999;
+}
+
+p {
+    font-family: "Inter";
+}
+
+li {
+    font-family: "Inter";
+}
+
+nav {
+    font-family: "Outfit";
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Outfit";
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+nav a {
+    text-decoration: none;
+    color: var(--text-color);
+    transition: font-size 0.3s ease;
+    border-radius: 4px;
+}
+nav ul li a:hover {
+    background-size: 10px;
+    background-color: var(--primary-color);
+    color: #399;
+    font-size: 1.2em;
+}

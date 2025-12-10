@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  background-color:bisque;
+  margin: 0 10%;
+  font-family: "Roboto Condensed";
+  }
+
+h1 {
+  text-align: center;
+  font-family: "Outfit";
+  color:rgba(0, 0, 0, 0.736);
+  font-weight: normal;
+  text-transform: uppercase;
+  border-bottom: 2px solid #93d5f5;
+  margin-top: 30px;
+}
+
+h2 {
+  color: #d1633c;
+  font-size: 1em;
+}
+nav {
+    font-family: "Outfit";
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Outfit";
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+nav a {
+    text-decoration: none;
+    color: var(--text-color);
+    transition: font-size 0.3s ease;
+    border-radius: 4px;
+}
+nav ul li a:hover {
+    background-size: 10px;
+    background-color: var(--primary-color);
+    color: #dc5410d2;
+    font-size: 1.2em;
+}
